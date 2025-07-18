@@ -38,7 +38,7 @@ export default function PaviPolloHome() {
               </div>
               <div className="relative">
                 <div className="w-full h-96 bg-gray-200 rounded-lg flex items-center justify-center relative">
-                  <Image src="/imagenes/1.jpg" alt="Pollo asado entero" fill style={{objectFit: 'cover'}} className="rounded-lg" />
+                  <Image src="/Imagenes/1.jpg" alt="Pollo asado entero" fill style={{objectFit: 'cover'}} className="rounded-lg" />
                 </div>
               </div>
             </div>
@@ -50,16 +50,16 @@ export default function PaviPolloHome() {
           <div className="container mx-auto px-4">
             <div className="grid grid-cols-4 gap-2 h-64">
               <div className="bg-gray-200 rounded-lg flex items-center justify-center relative">
-                <Image src="/imagenes/2.jpg" alt="Pollo asado" fill style={{objectFit: 'cover'}} className="rounded-lg" />
+                <Image src="/Imagenes/2.jpg" alt="Pollo asado" fill style={{objectFit: 'cover'}} className="rounded-lg" />
               </div>
               <div className="bg-gray-200 rounded-lg flex items-center justify-center relative">
-                <Image src="/imagenes/3.jpg" alt="Papas fritas" fill style={{objectFit: 'cover'}} className="rounded-lg" />
+                <Image src="/Imagenes/3.jpg" alt="Papas fritas" fill style={{objectFit: 'cover'}} className="rounded-lg" />
               </div>
               <div className="bg-gray-200 rounded-lg flex items-center justify-center relative">
-                <Image src="/imagenes/4.jpg" alt="Arroz moro" fill style={{objectFit: 'cover'}} className="rounded-lg" />
+                <Image src="/Imagenes/4.jpg" alt="Arroz moro" fill style={{objectFit: 'cover'}} className="rounded-lg" />
               </div>
               <div className="bg-gray-200 rounded-lg flex items-center justify-center relative">
-                <Image src="/imagenes/5.jpg" alt="Consomé" fill style={{objectFit: 'cover'}} className="rounded-lg" />
+                <Image src="/Imagenes/5.jpg" alt="Consomé" fill style={{objectFit: 'cover'}} className="rounded-lg" />
               </div>
             </div>
           </div>
@@ -82,7 +82,7 @@ export default function PaviPolloHome() {
               </div>
               <div className="relative">
                 <div className="w-full h-64 bg-gray-200 rounded-lg flex items-center justify-center relative">
-                  <Image src="/imagenes/6.jpg" alt="Especial de la semana" fill style={{objectFit: 'cover'}} className="rounded-lg" />
+                  <Image src="/Imagenes/6.jpg" alt="Especial de la semana" fill style={{objectFit: 'cover'}} className="rounded-lg" />
                 </div>
               </div>
             </div>
@@ -95,7 +95,7 @@ export default function PaviPolloHome() {
             <div className="grid md:grid-cols-2 gap-16 items-center">
               <div className="relative">
                 <div className="w-full h-64 bg-gray-200 rounded-lg flex items-center justify-center relative">
-                  <Image src="/imagenes/7.jpg" alt="Facilidad de pedido o entrega" fill style={{objectFit: 'cover'}} className="rounded-lg" />
+                  <Image src="/Imagenes/7.jpg" alt="Facilidad de pedido o entrega" fill style={{objectFit: 'cover'}} className="rounded-lg" />
                 </div>
               </div>
               <div>
@@ -163,21 +163,21 @@ export default function PaviPolloHome() {
               <div className="grid md:grid-cols-3 gap-8">
                 <div className="text-center">
                   <div className="w-full h-64 bg-gray-200 rounded-lg mb-4 flex items-center justify-center relative">
-                    <Image src="/imagenes/8.jpg" alt="Pollo a la brasa" fill style={{objectFit: 'cover'}} className="rounded-lg" />
+                    <Image src="/Imagenes/8.jpg" alt="Pollo a la brasa" fill style={{objectFit: 'cover'}} className="rounded-lg" />
                   </div>
                   <h5 className="font-bold">POLLO A LA BRASA</h5>
                   <p className="text-gray-600">Nuestro icónico pollo, dorado a la perfección con la receta de la casa.</p>
                 </div>
                 <div className="text-center">
                   <div className="w-full h-64 bg-gray-200 rounded-lg mb-4 flex items-center justify-center relative">
-                    <Image src="/imagenes/9.jpg" alt="Arroz moro" fill style={{objectFit: 'cover'}} className="rounded-lg" />
+                    <Image src="/Imagenes/9.jpg" alt="Arroz moro" fill style={{objectFit: 'cover'}} className="rounded-lg" />
                   </div>
                   <h5 className="font-bold">ARROZ MORO</h5>
                   <p className="text-gray-600">Acompaña tu pollo con nuestro delicioso arroz moro casero.</p>
                 </div>
                 <div className="text-center">
                   <div className="w-full h-64 bg-gray-200 rounded-lg mb-4 flex items-center justify-center relative">
-                    <Image src="/imagenes/10.jpg" alt="Papas fritas" fill style={{objectFit: 'cover'}} className="rounded-lg" />
+                    <Image src="/Imagenes/10.jpg" alt="Papas fritas" fill style={{objectFit: 'cover'}} className="rounded-lg" />
                   </div>
                   <h5 className="font-bold">PAPAS FRITAS</h5>
                   <p className="text-gray-600">Crujientes por fuera, suaves por dentro. El complemento perfecto.</p>

@@ -49,11 +49,11 @@ export default function MenuPage() {
                           <span className="font-bold text-xl text-pavi-naranja bg-pavi-naranja/10 px-3 py-1 rounded-full">$5.50</span>
                         </div>
                         <p className="text-sm text-pavi-grisoscuro leading-relaxed">Nuestro jugoso y tradicional pollo a la brasa, perfecto para una persona.</p>
-                        {expandedCards['pollo-1-4'] && (
-                          <div className="mt-4 relative h-48 rounded-lg overflow-hidden">
-                            <Image src="/imagenes/8.jpg" alt="1/4 Pollo a la brasa" fill style={{objectFit: 'cover'}} className="rounded-lg" />
-                          </div>
-                        )}
+                                                 {expandedCards['pollo-1-4'] && (
+                           <div className="mt-4 relative h-48 rounded-lg overflow-hidden">
+                             <Image src="/Imagenes/8.jpg" alt="1/4 Pollo a la brasa" fill style={{objectFit: 'cover'}} className="rounded-lg" />
+                           </div>
+                         )}
                       </div>
                       <div 
                         className="bg-white rounded-lg p-4 shadow-md hover:shadow-lg transition-all cursor-pointer"
@@ -64,11 +64,11 @@ export default function MenuPage() {
                           <span className="font-bold text-xl text-pavi-naranja bg-pavi-naranja/10 px-3 py-1 rounded-full">$10.00</span>
                         </div>
                         <p className="text-sm text-pavi-grisoscuro leading-relaxed">Media porción de nuestro pollo a la brasa, ideal para compartir o un gran apetito.</p>
-                        {expandedCards['pollo-1-2'] && (
-                          <div className="mt-4 relative h-48 rounded-lg overflow-hidden">
-                            <Image src="/imagenes/1.jpg" alt="1/2 Pollo a la brasa" fill style={{objectFit: 'cover'}} className="rounded-lg" />
-                          </div>
-                        )}
+                                                 {expandedCards['pollo-1-2'] && (
+                           <div className="mt-4 relative h-48 rounded-lg overflow-hidden">
+                             <Image src="/Imagenes/1.jpg" alt="1/2 Pollo a la brasa" fill style={{objectFit: 'cover'}} className="rounded-lg" />
+                           </div>
+                         )}
                       </div>
                     </div>
                   </div>
@@ -89,11 +89,11 @@ export default function MenuPage() {
                           <span className="font-bold text-xl text-pavi-naranja bg-pavi-naranja/10 px-3 py-1 rounded-full">$2.50</span>
                         </div>
                         <p className="text-sm text-pavi-grisoscuro leading-relaxed">Nuestro famoso arroz moro, cremoso y lleno de sabor.</p>
-                        {expandedCards['arroz-moro'] && (
-                          <div className="mt-4 relative h-48 rounded-lg overflow-hidden">
-                            <Image src="/imagenes/9.jpg" alt="Arroz Moro" fill style={{objectFit: 'cover'}} className="rounded-lg" />
-                          </div>
-                        )}
+                                                 {expandedCards['arroz-moro'] && (
+                           <div className="mt-4 relative h-48 rounded-lg overflow-hidden">
+                             <Image src="/Imagenes/9.jpg" alt="Arroz Moro" fill style={{objectFit: 'cover'}} className="rounded-lg" />
+                           </div>
+                         )}
                       </div>
                       <div 
                         className="bg-white rounded-lg p-4 shadow-md hover:shadow-lg transition-all cursor-pointer"
@@ -104,11 +104,11 @@ export default function MenuPage() {
                           <span className="font-bold text-xl text-pavi-naranja bg-pavi-naranja/10 px-3 py-1 rounded-full">$2.00</span>
                         </div>
                         <p className="text-sm text-pavi-grisoscuro leading-relaxed">Crujientes papas fritas, el acompañamiento perfecto para tu pollo.</p>
-                        {expandedCards['papas-fritas'] && (
-                          <div className="mt-4 relative h-48 rounded-lg overflow-hidden">
-                            <Image src="/imagenes/10.jpg" alt="Papas Fritas" fill style={{objectFit: 'cover'}} className="rounded-lg" />
-                          </div>
-                        )}
+                                                 {expandedCards['papas-fritas'] && (
+                           <div className="mt-4 relative h-48 rounded-lg overflow-hidden">
+                             <Image src="/Imagenes/10.jpg" alt="Papas Fritas" fill style={{objectFit: 'cover'}} className="rounded-lg" />
+                           </div>
+                         )}
                       </div>
                     </div>
                   </div>
@@ -129,11 +129,11 @@ export default function MenuPage() {
                           <span className="font-bold text-xl text-pavi-naranja bg-pavi-naranja/10 px-3 py-1 rounded-full">$3.00</span>
                         </div>
                         <p className="text-sm text-pavi-grisoscuro leading-relaxed">Reconfortante consomé de pollo casero, ideal para empezar tu comida.</p>
-                        {expandedCards['consome-grande'] && (
-                          <div className="mt-4 relative h-48 rounded-lg overflow-hidden">
-                            <Image src="/imagenes/5.jpg" alt="Consomé de Pollo Grande" fill style={{objectFit: 'cover'}} className="rounded-lg" />
-                          </div>
-                        )}
+                                                 {expandedCards['consome-grande'] && (
+                           <div className="mt-4 relative h-48 rounded-lg overflow-hidden">
+                             <Image src="/Imagenes/5.jpg" alt="Consomé de Pollo Grande" fill style={{objectFit: 'cover'}} className="rounded-lg" />
+                           </div>
+                         )}
                       </div>
                       <div 
                         className="bg-white rounded-lg p-4 shadow-md hover:shadow-lg transition-all cursor-pointer"
@@ -144,11 +144,11 @@ export default function MenuPage() {
                           <span className="font-bold text-xl text-pavi-naranja bg-pavi-naranja/10 px-3 py-1 rounded-full">$2.00</span>
                         </div>
                         <p className="text-sm text-pavi-grisoscuro leading-relaxed">Una porción más pequeña de nuestro delicioso consomé.</p>
-                        {expandedCards['consome-pequeno'] && (
-                          <div className="mt-4 relative h-48 rounded-lg overflow-hidden">
-                            <Image src="/imagenes/5.jpg" alt="Consomé de Pollo Pequeño" fill style={{objectFit: 'cover'}} className="rounded-lg" />
-                          </div>
-                        )}
+                                                 {expandedCards['consome-pequeno'] && (
+                           <div className="mt-4 relative h-48 rounded-lg overflow-hidden">
+                             <Image src="/Imagenes/5.jpg" alt="Consomé de Pollo Pequeño" fill style={{objectFit: 'cover'}} className="rounded-lg" />
+                           </div>
+                         )}
                       </div>
                     </div>
                   </div>
@@ -172,11 +172,11 @@ export default function MenuPage() {
                           <span className="font-bold text-xl text-pavi-rojo bg-pavi-rojo/10 px-3 py-1 rounded-full">$20.00</span>
                         </div>
                         <p className="text-sm text-pavi-grisoscuro leading-relaxed">Pollo entero a la brasa con acompañamientos grandes. Pregunta por las opciones.</p>
-                        {expandedCards['combo-familiar'] && (
-                          <div className="mt-4 relative h-48 rounded-lg overflow-hidden">
-                            <Image src="/imagenes/1.jpg" alt="Combo Familiar" fill style={{objectFit: 'cover'}} className="rounded-lg" />
-                          </div>
-                        )}
+                                                 {expandedCards['combo-familiar'] && (
+                           <div className="mt-4 relative h-48 rounded-lg overflow-hidden">
+                             <Image src="/Imagenes/1.jpg" alt="Combo Familiar" fill style={{objectFit: 'cover'}} className="rounded-lg" />
+                           </div>
+                         )}
                       </div>
                       <div 
                         className="bg-gradient-to-r from-pavi-rojo/5 to-pavi-naranja/5 rounded-lg p-4 shadow-md hover:shadow-lg transition-all cursor-pointer border border-pavi-rojo/20"
@@ -187,11 +187,11 @@ export default function MenuPage() {
                           <span className="font-bold text-xl text-pavi-rojo bg-pavi-rojo/10 px-3 py-1 rounded-full">$7.50</span>
                         </div>
                         <p className="text-sm text-pavi-grisoscuro leading-relaxed">1/4 de pollo a la brasa con tu acompañamiento favorito y bebida.</p>
-                        {expandedCards['combo-personal'] && (
-                          <div className="mt-4 relative h-48 rounded-lg overflow-hidden">
-                            <Image src="/imagenes/8.jpg" alt="Combo Personal" fill style={{objectFit: 'cover'}} className="rounded-lg" />
-                          </div>
-                        )}
+                                                 {expandedCards['combo-personal'] && (
+                           <div className="mt-4 relative h-48 rounded-lg overflow-hidden">
+                             <Image src="/Imagenes/8.jpg" alt="Combo Personal" fill style={{objectFit: 'cover'}} className="rounded-lg" />
+                           </div>
+                         )}
                       </div>
                     </div>
                   </div>
@@ -209,11 +209,11 @@ export default function MenuPage() {
                       >
                         <h4 className="font-semibold text-pavi-grisoscuro mb-1">Juguito Natural</h4>
                         <span className="font-bold text-pavi-naranja">$1.50</span>
-                        {expandedCards['juguito-natural'] && (
-                          <div className="mt-3 relative h-32 rounded-lg overflow-hidden">
-                            <Image src="/imagenes/3.jpg" alt="Juguito Natural" fill style={{objectFit: 'cover'}} className="rounded-lg" />
-                          </div>
-                        )}
+                                                 {expandedCards['juguito-natural'] && (
+                           <div className="mt-3 relative h-32 rounded-lg overflow-hidden">
+                             <Image src="/Imagenes/3.jpg" alt="Juguito Natural" fill style={{objectFit: 'cover'}} className="rounded-lg" />
+                           </div>
+                         )}
                       </div>
                       <div 
                         className="bg-white rounded-lg p-3 shadow-md hover:shadow-lg transition-all cursor-pointer text-center"
@@ -221,11 +221,11 @@ export default function MenuPage() {
                       >
                         <h4 className="font-semibold text-pavi-grisoscuro mb-1">Gaseosa Pequeña</h4>
                         <span className="font-bold text-pavi-naranja">$1.00</span>
-                        {expandedCards['gaseosa-pequena'] && (
-                          <div className="mt-3 relative h-32 rounded-lg overflow-hidden">
-                            <Image src="/imagenes/4.jpg" alt="Gaseosa Pequeña" fill style={{objectFit: 'cover'}} className="rounded-lg" />
-                          </div>
-                        )}
+                                                 {expandedCards['gaseosa-pequena'] && (
+                           <div className="mt-3 relative h-32 rounded-lg overflow-hidden">
+                             <Image src="/Imagenes/4.jpg" alt="Gaseosa Pequeña" fill style={{objectFit: 'cover'}} className="rounded-lg" />
+                           </div>
+                         )}
                       </div>
                       <div 
                         className="bg-white rounded-lg p-3 shadow-md hover:shadow-lg transition-all cursor-pointer text-center"
@@ -233,11 +233,11 @@ export default function MenuPage() {
                       >
                         <h4 className="font-semibold text-pavi-grisoscuro mb-1">Gaseosa Grande</h4>
                         <span className="font-bold text-pavi-naranja">$2.50</span>
-                        {expandedCards['gaseosa-grande'] && (
-                          <div className="mt-3 relative h-32 rounded-lg overflow-hidden">
-                            <Image src="/imagenes/4.jpg" alt="Gaseosa Grande" fill style={{objectFit: 'cover'}} className="rounded-lg" />
-                          </div>
-                        )}
+                                                 {expandedCards['gaseosa-grande'] && (
+                           <div className="mt-3 relative h-32 rounded-lg overflow-hidden">
+                             <Image src="/Imagenes/4.jpg" alt="Gaseosa Grande" fill style={{objectFit: 'cover'}} className="rounded-lg" />
+                           </div>
+                         )}
                       </div>
                       <div 
                         className="bg-white rounded-lg p-3 shadow-md hover:shadow-lg transition-all cursor-pointer text-center"
@@ -245,11 +245,11 @@ export default function MenuPage() {
                       >
                         <h4 className="font-semibold text-pavi-grisoscuro mb-1">Salsas Adicionales</h4>
                         <span className="font-bold text-pavi-naranja">$0.50</span>
-                        {expandedCards['salsas-adicionales'] && (
-                          <div className="mt-3 relative h-32 rounded-lg overflow-hidden">
-                            <Image src="/imagenes/2.jpg" alt="Salsas Adicionales" fill style={{objectFit: 'cover'}} className="rounded-lg" />
-                          </div>
-                        )}
+                                                 {expandedCards['salsas-adicionales'] && (
+                           <div className="mt-3 relative h-32 rounded-lg overflow-hidden">
+                             <Image src="/Imagenes/2.jpg" alt="Salsas Adicionales" fill style={{objectFit: 'cover'}} className="rounded-lg" />
+                           </div>
+                         )}
                       </div>
                     </div>
                   </div>
@@ -267,11 +267,11 @@ export default function MenuPage() {
                       >
                         <h4 className="font-semibold text-pavi-grisoscuro mb-1">Flan Casero</h4>
                         <span className="font-bold text-pavi-naranja">$2.50</span>
-                        {expandedCards['flan-casero'] && (
-                          <div className="mt-3 relative h-32 rounded-lg overflow-hidden">
-                            <Image src="/imagenes/6.jpg" alt="Flan Casero" fill style={{objectFit: 'cover'}} className="rounded-lg" />
-                          </div>
-                        )}
+                                                 {expandedCards['flan-casero'] && (
+                           <div className="mt-3 relative h-32 rounded-lg overflow-hidden">
+                             <Image src="/Imagenes/6.jpg" alt="Flan Casero" fill style={{objectFit: 'cover'}} className="rounded-lg" />
+                           </div>
+                         )}
                       </div>
                       <div 
                         className="bg-white rounded-lg p-3 shadow-md hover:shadow-lg transition-all cursor-pointer text-center"
@@ -279,11 +279,11 @@ export default function MenuPage() {
                       >
                         <h4 className="font-semibold text-pavi-grisoscuro mb-1">Helado (sabor del día)</h4>
                         <span className="font-bold text-pavi-naranja">$3.00</span>
-                        {expandedCards['helado'] && (
-                          <div className="mt-3 relative h-32 rounded-lg overflow-hidden">
-                            <Image src="/imagenes/7.jpg" alt="Helado" fill style={{objectFit: 'cover'}} className="rounded-lg" />
-                          </div>
-                        )}
+                                                 {expandedCards['helado'] && (
+                           <div className="mt-3 relative h-32 rounded-lg overflow-hidden">
+                             <Image src="/Imagenes/7.jpg" alt="Helado" fill style={{objectFit: 'cover'}} className="rounded-lg" />
+                           </div>
+                         )}
                       </div>
                     </div>
                   </div>

@@ -57,7 +57,7 @@ export default function MenuModal({ isOpen, onClose }: MenuModalProps) {
           <div className="relative mb-6 rounded-xl overflow-hidden shadow-lg">
             <div className="w-full h-64 bg-gradient-to-br from-pavi-rojo/20 to-pavi-naranja/20 flex items-center justify-center">
               <Image 
-                src="/imagenes/1.jpg" 
+                src="/Imagenes/1.jpg" 
                 alt="Menú del día - Pollo a la brasa" 
                 fill 
                 style={{objectFit: 'cover'}}
