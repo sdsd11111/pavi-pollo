@@ -18,6 +18,31 @@ export default function MenuPage() {
     <div className="min-h-screen bg-gradient-to-br from-pavi-grisclaro to-white flex flex-col">
       <Header />
       <main className="flex-1">
+        {/* Hero Section from Home Page */}
+        <section className="bg-yellow-200 py-16 px-4">
+          <div className="container mx-auto">
+            <div className="grid md:grid-cols-2 gap-8 items-center">
+              <div>
+                <p className="text-gray-800 mb-4">ABIERTO PARA LLEVAR Y RECOGIDA</p>
+                <h1 className="text-6xl md:text-8xl font-bold text-gray-900 mb-4">PAVI POLLO</h1>
+                <a 
+                  href="https://wa.me/593939572067" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="inline-block bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded-lg transition-colors"
+                >
+                  Pedir online
+                </a>
+              </div>
+              <div className="relative">
+                <div className="w-full h-96 bg-gray-200 rounded-lg flex items-center justify-center relative">
+                  <Image src="/Imagenes/1.jpg" alt="Pollo asado entero" fill style={{objectFit: 'cover'}} className="rounded-lg" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Hero Section for Menu */}
         <section className="bg-gradient-to-r from-pavi-rojo to-pavi-naranja py-20 px-4">
           <div className="container mx-auto text-center">
