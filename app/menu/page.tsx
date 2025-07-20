@@ -18,36 +18,67 @@ export default function MenuPage() {
     <div className="min-h-screen bg-gradient-to-br from-pavi-grisclaro to-white flex flex-col">
       <Header />
       <main className="flex-1">
-        {/* Hero Section from Home Page */}
-        <section className="bg-yellow-200 py-16 px-4">
-          <div className="container mx-auto">
-            <div className="grid md:grid-cols-2 gap-8 items-center">
-              <div>
-                <p className="text-gray-800 mb-4">ABIERTO PARA LLEVAR Y RECOGIDA</p>
-                <h1 className="text-6xl md:text-8xl font-bold text-gray-900 mb-4">PAVI POLLO</h1>
-                <a 
-                  href="https://wa.me/593939572067" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="inline-block bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded-lg transition-colors"
-                >
-                  Pedir online
-                </a>
+        {/* Hero Section - igual que en Inicio */}
+        <section className="bg-yellow-200 py-10 px-2 md:px-8">
+          <div className="container mx-auto flex flex-col md:flex-row items-center gap-8 relative">
+            {/* Imagen principal aún más grande y protagonista */}
+            <div className="flex-1 flex justify-center items-center min-w-0">
+              <div className="relative w-[90vw] max-w-[38rem] h-[90vw] max-h-[38rem] md:w-full md:max-w-[44rem] md:h-[38rem] md:max-h-[44rem] bg-gray-200 rounded-full shadow-lg flex items-center justify-center overflow-hidden">
+                <Image src="/Imagenes/1.jpg" alt="Pollo asado entero" fill style={{objectFit: 'cover'}} className="rounded-full" />
+                <div className="absolute top-0 left-0 w-full h-full bg-black/10 rounded-full" />
               </div>
-              <div className="relative">
-                <div className="w-full h-96 bg-gray-200 rounded-lg flex items-center justify-center relative">
-                  <Image src="/Imagenes/1.jpg" alt="Pollo asado entero" fill style={{objectFit: 'cover'}} className="rounded-lg" />
+            </div>
+            {/* Derecha: Texto y productos centrados */}
+            <div className="flex-1 flex flex-col items-center justify-center text-center gap-6 min-w-0">
+              <h1 className="text-5xl md:text-6xl font-bold text-gray-900">PAVI POLLO</h1>
+              <p className="text-gray-800 text-lg max-w-lg">ABIERTO PARA LLEVAR Y RECOGIDA</p>
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Pollo Asado Entero</h2>
+              <p className="text-gray-700 max-w-md">Disfruta de nuestro icónico pollo asado, dorado a la perfección con la receta original desde 1980. Sabor y tradición en cada bocado.</p>
+              <div className="flex items-center gap-4 justify-center">
+                <span className="text-3xl font-bold text-red-600">$15</span>
+                <span className="text-sm text-gray-600">Entrega gratis en Loja</span>
+              </div>
+              <a href="https://wa.me/593939572067" target="_blank" rel="noopener noreferrer" className="inline-block bg-red-600 hover:bg-red-700 text-white px-8 py-3 text-lg font-semibold shadow-md rounded-lg">Pedir online</a>
+              {/* Productos destacados centrados */}
+              <div className="flex flex-wrap justify-center gap-4 mt-6 w-full">
+                {/* Tarjeta 1 */}
+                <div className="bg-white rounded-2xl shadow-lg flex flex-col items-center w-40 p-4">
+                  <div className="w-20 h-20 rounded-full overflow-hidden mb-2">
+                    <Image src="/Imagenes/2.jpg" alt="Pollo asado" width={80} height={80} style={{objectFit: 'cover'}} />
+                  </div>
+                  <span className="font-bold text-gray-900">Pollo Asado</span>
+                  <span className="text-red-600 font-bold">$7</span>
+                  <span className="text-xs text-gray-500">Best Seller</span>
+                </div>
+                {/* Tarjeta 2 */}
+                <div className="bg-white rounded-2xl shadow-lg flex flex-col items-center w-40 p-4">
+                  <div className="w-20 h-20 rounded-full overflow-hidden mb-2">
+                    <Image src="/Imagenes/3.jpg" alt="Papas fritas" width={80} height={80} style={{objectFit: 'cover'}} />
+                  </div>
+                  <span className="font-bold text-gray-900">Papas Fritas</span>
+                  <span className="text-red-600 font-bold">$3</span>
+                  <span className="text-xs text-gray-500">Acompañante</span>
+                </div>
+                {/* Tarjeta 3 */}
+                <div className="bg-white rounded-2xl shadow-lg flex flex-col items-center w-40 p-4">
+                  <div className="w-20 h-20 rounded-full overflow-hidden mb-2">
+                    <Image src="/Imagenes/4.jpg" alt="Arroz moro" width={80} height={80} style={{objectFit: 'cover'}} />
+                  </div>
+                  <span className="font-bold text-gray-900">Arroz Moro</span>
+                  <span className="text-red-600 font-bold">$2</span>
+                  <span className="text-xs text-gray-500">Acompañante</span>
+                </div>
+                {/* Tarjeta 4 */}
+                <div className="bg-white rounded-2xl shadow-lg flex flex-col items-center w-40 p-4">
+                  <div className="w-20 h-20 rounded-full overflow-hidden mb-2">
+                    <Image src="/Imagenes/5.jpg" alt="Consomé" width={80} height={80} style={{objectFit: 'cover'}} />
+                  </div>
+                  <span className="font-bold text-gray-900">Consomé</span>
+                  <span className="text-red-600 font-bold">$2</span>
+                  <span className="text-xs text-gray-500">Sopa</span>
                 </div>
               </div>
             </div>
-          </div>
-        </section>
-
-        {/* Hero Section for Menu */}
-        <section className="bg-gradient-to-r from-pavi-rojo to-pavi-naranja py-20 px-4">
-          <div className="container mx-auto text-center">
-            <h1 className="text-7xl md:text-8xl font-bold text-white mb-4 drop-shadow-lg">MENÚ</h1>
-            <p className="text-xl text-white/90 max-w-2xl mx-auto">Descubre nuestra deliciosa selección de platos tradicionales preparados con los mejores ingredientes</p>
           </div>
         </section>
 
