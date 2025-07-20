@@ -10,6 +10,18 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+  
+  .text-shadow-lg {
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+  }
+  
+  .text-shadow-xl {
+    text-shadow: 0 6px 12px rgba(0, 0, 0, 0.9);
+  }
+  
+  .text-shadow-2xl {
+    text-shadow: 0 8px 16px rgba(0, 0, 0, 1);
+  }
 }
 
 @layer base {

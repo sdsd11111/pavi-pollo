@@ -25,33 +25,48 @@ export default function PaviPolloHome() {
       <Header />
       {/* Main Content */}
       <main className="flex-1">
-        {/* Hero Section - NUEVO FORMATO */}
-        <section className="bg-yellow-200 py-10 px-2 md:px-8">
-          <div className="container mx-auto flex flex-col md:flex-row items-center gap-8 relative">
-            {/* Imagen principal aún más grande y protagonista */}
+        {/* Hero Section - CON IMAGEN DE FONDO */}
+        <section className="relative min-h-screen flex items-center px-2 md:px-8 overflow-hidden">
+          {/* Imagen de fondo */}
+          <div className="absolute inset-0 z-0">
+            <Image 
+              src="/Imagenes/portada.jpg" 
+              alt="Pavi Pollo - Portada" 
+              fill 
+              style={{objectFit: 'cover'}} 
+              priority
+            />
+            {/* Overlay para destacar el texto */}
+            <div className="absolute inset-0 bg-black/70" />
+          </div>
+          
+          <div className="container mx-auto relative z-10 flex flex-col md:flex-row items-center gap-8">
+            {/* Imagen principal */}
             <div className="flex-1 flex justify-center items-center min-w-0">
-              <div className="relative w-[90vw] max-w-[38rem] h-[90vw] max-h-[38rem] md:w-full md:max-w-[44rem] md:h-[38rem] md:max-h-[44rem] bg-gray-200 rounded-full shadow-lg flex items-center justify-center overflow-hidden">
+              <div className="relative w-[90vw] max-w-[38rem] h-[90vw] max-h-[38rem] md:w-full md:max-w-[44rem] md:h-[38rem] md:max-h-[44rem] bg-gray-200 rounded-full shadow-2xl flex items-center justify-center overflow-hidden border-4 border-white">
                 <Image src="/Imagenes/1.jpg" alt="Pollo asado entero" fill style={{objectFit: 'cover'}} className="rounded-full" />
                 <div className="absolute top-0 left-0 w-full h-full bg-black/10 rounded-full" />
               </div>
             </div>
-            {/* Derecha: Texto y productos centrados */}
+            
+            {/* Texto y productos centrados */}
             <div className="flex-1 flex flex-col items-center justify-center text-center gap-6 min-w-0">
-              <h1 className="text-5xl md:text-6xl font-bold text-gray-900">PAVI POLLO</h1>
-              <p className="text-gray-800 text-lg max-w-lg">ABIERTO PARA LLEVAR Y RECOGIDA</p>
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Pollo Asado Entero</h2>
-              <p className="text-gray-700 max-w-md">Disfruta de nuestro icónico pollo asado, dorado a la perfección con la receta original desde 1980. Sabor y tradición en cada bocado.</p>
+              <h1 className="text-5xl md:text-6xl font-bold text-white text-shadow-2xl">PAVI POLLO</h1>
+              <p className="text-yellow-300 text-lg max-w-lg font-bold text-shadow-xl">ABIERTO PARA LLEVAR Y RECOGIDA</p>
+              <h2 className="text-3xl md:text-4xl font-bold text-white text-shadow-2xl">Pollo Asado Entero</h2>
+              <p className="text-white max-w-md text-shadow-xl font-medium">Disfruta de nuestro icónico pollo asado, dorado a la perfección con la receta original desde 1980. Sabor y tradición en cada bocado.</p>
               <div className="flex items-center gap-4 justify-center">
-                <span className="text-3xl font-bold text-red-600">$15</span>
-                <span className="text-sm text-gray-600">Entrega gratis en Loja</span>
+                <span className="text-3xl font-bold text-red-300 text-shadow-2xl">$15</span>
+                <span className="text-sm text-white text-shadow-xl font-semibold">Entrega gratis en Loja</span>
               </div>
-              <Button asChild className="bg-red-600 hover:bg-red-700 text-white px-8 py-3 text-lg font-semibold shadow-md">
+              <Button asChild className="bg-red-600 hover:bg-red-700 text-white px-8 py-3 text-lg font-bold shadow-2xl border-4 border-white">
                 <a href="https://wa.me/593939572067" target="_blank" rel="noopener noreferrer">Pedir online</a>
               </Button>
+              
               {/* Productos destacados centrados */}
               <div className="flex flex-wrap justify-center gap-4 mt-6 w-full">
                 {/* Tarjeta 1 */}
-                <div className="bg-white rounded-2xl shadow-lg flex flex-col items-center w-40 p-4">
+                <div className="bg-white/95 backdrop-blur-sm rounded-2xl shadow-xl flex flex-col items-center w-40 p-4 border border-white/20">
                   <div className="w-20 h-20 rounded-full overflow-hidden mb-2">
                     <Image src="/Imagenes/2.jpg" alt="Pollo asado" width={80} height={80} style={{objectFit: 'cover'}} />
                   </div>
@@ -60,7 +75,7 @@ export default function PaviPolloHome() {
                   <span className="text-xs text-gray-500">Best Seller</span>
                 </div>
                 {/* Tarjeta 2 */}
-                <div className="bg-white rounded-2xl shadow-lg flex flex-col items-center w-40 p-4">
+                <div className="bg-white/95 backdrop-blur-sm rounded-2xl shadow-xl flex flex-col items-center w-40 p-4 border border-white/20">
                   <div className="w-20 h-20 rounded-full overflow-hidden mb-2">
                     <Image src="/Imagenes/3.jpg" alt="Papas fritas" width={80} height={80} style={{objectFit: 'cover'}} />
                   </div>
@@ -69,7 +84,7 @@ export default function PaviPolloHome() {
                   <span className="text-xs text-gray-500">Acompañante</span>
                 </div>
                 {/* Tarjeta 3 */}
-                <div className="bg-white rounded-2xl shadow-lg flex flex-col items-center w-40 p-4">
+                <div className="bg-white/95 backdrop-blur-sm rounded-2xl shadow-xl flex flex-col items-center w-40 p-4 border border-white/20">
                   <div className="w-20 h-20 rounded-full overflow-hidden mb-2">
                     <Image src="/Imagenes/4.jpg" alt="Arroz moro" width={80} height={80} style={{objectFit: 'cover'}} />
                   </div>
@@ -78,7 +93,7 @@ export default function PaviPolloHome() {
                   <span className="text-xs text-gray-500">Acompañante</span>
                 </div>
                 {/* Tarjeta 4 */}
-                <div className="bg-white rounded-2xl shadow-lg flex flex-col items-center w-40 p-4">
+                <div className="bg-white/95 backdrop-blur-sm rounded-2xl shadow-xl flex flex-col items-center w-40 p-4 border border-white/20">
                   <div className="w-20 h-20 rounded-full overflow-hidden mb-2">
                     <Image src="/Imagenes/5.jpg" alt="Consomé" width={80} height={80} style={{objectFit: 'cover'}} />
                   </div>
