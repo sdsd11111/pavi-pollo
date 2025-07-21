@@ -51,9 +51,7 @@ export default function PaviPolloHome() {
             
             {/* Texto y productos centrados */}
             <div className="flex-1 flex flex-col items-center justify-center text-center gap-6 min-w-0">
-              <h1 className="text-5xl md:text-6xl font-bold text-white text-shadow-2xl">PAVI POLLO</h1>
-              <p className="text-yellow-300 text-lg max-w-lg font-bold text-shadow-xl">ABIERTO PARA LLEVAR Y RECOGIDA</p>
-              <h2 className="text-3xl md:text-4xl font-bold text-white text-shadow-2xl">Pollo Asado Entero</h2>
+              <h1 className="text-6xl md:text-7xl font-extrabold text-yellow-300 drop-shadow-lg mb-2">Pollo Asado Entero</h1>
               <p className="text-white max-w-md text-shadow-xl font-medium">Disfruta de nuestro icónico pollo asado, dorado a la perfección con la receta original desde 1980. Sabor y tradición en cada bocado.</p>
               <div className="flex items-center gap-4 justify-center">
                 <span className="text-3xl font-bold text-red-300 text-shadow-2xl">$15</span>
@@ -66,7 +64,7 @@ export default function PaviPolloHome() {
               {/* Productos destacados centrados */}
               <div className="flex flex-wrap justify-center gap-4 mt-6 w-full">
                 {/* Tarjeta 1 */}
-                <div className="bg-white/95 backdrop-blur-sm rounded-2xl shadow-xl flex flex-col items-center w-40 p-4 border border-white/20">
+                <div className="bg-white/95 backdrop-blur-sm rounded-2xl shadow-xl flex flex-col items-center w-40 p-4 border border-white/20 transition-transform duration-300 ease-in-out hover:scale-105 hover:-translate-y-2 cursor-pointer">
                   <div className="w-20 h-20 rounded-full overflow-hidden mb-2">
                     <Image src="/Imagenes/2.jpg" alt="Pollo asado" width={80} height={80} style={{objectFit: 'cover'}} />
                   </div>
@@ -75,7 +73,7 @@ export default function PaviPolloHome() {
                   <span className="text-xs text-gray-500">Best Seller</span>
                 </div>
                 {/* Tarjeta 2 */}
-                <div className="bg-white/95 backdrop-blur-sm rounded-2xl shadow-xl flex flex-col items-center w-40 p-4 border border-white/20">
+                <div className="bg-white/95 backdrop-blur-sm rounded-2xl shadow-xl flex flex-col items-center w-40 p-4 border border-white/20 transition-transform duration-300 ease-in-out hover:scale-105 hover:-translate-y-2 cursor-pointer">
                   <div className="w-20 h-20 rounded-full overflow-hidden mb-2">
                     <Image src="/Imagenes/3.jpg" alt="Papas fritas" width={80} height={80} style={{objectFit: 'cover'}} />
                   </div>
@@ -84,7 +82,7 @@ export default function PaviPolloHome() {
                   <span className="text-xs text-gray-500">Acompañante</span>
                 </div>
                 {/* Tarjeta 3 */}
-                <div className="bg-white/95 backdrop-blur-sm rounded-2xl shadow-xl flex flex-col items-center w-40 p-4 border border-white/20">
+                <div className="bg-white/95 backdrop-blur-sm rounded-2xl shadow-xl flex flex-col items-center w-40 p-4 border border-white/20 transition-transform duration-300 ease-in-out hover:scale-105 hover:-translate-y-2 cursor-pointer">
                   <div className="w-20 h-20 rounded-full overflow-hidden mb-2">
                     <Image src="/Imagenes/4.jpg" alt="Arroz moro" width={80} height={80} style={{objectFit: 'cover'}} />
                   </div>
@@ -93,7 +91,7 @@ export default function PaviPolloHome() {
                   <span className="text-xs text-gray-500">Acompañante</span>
                 </div>
                 {/* Tarjeta 4 */}
-                <div className="bg-white/95 backdrop-blur-sm rounded-2xl shadow-xl flex flex-col items-center w-40 p-4 border border-white/20">
+                <div className="bg-white/95 backdrop-blur-sm rounded-2xl shadow-xl flex flex-col items-center w-40 p-4 border border-white/20 transition-transform duration-300 ease-in-out hover:scale-105 hover:-translate-y-2 cursor-pointer">
                   <div className="w-20 h-20 rounded-full overflow-hidden mb-2">
                     <Image src="/Imagenes/5.jpg" alt="Consomé" width={80} height={80} style={{objectFit: 'cover'}} />
                   </div>
